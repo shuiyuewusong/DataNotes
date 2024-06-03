@@ -27,7 +27,9 @@ systemd-machine-id-setup
 chmod ugo-w /etc/machine-id
 ```
 
+## 相关资料
 
+https://raj-anju.medium.com/virsh-cloning-vms-dad-ipv6-duplicate-address-detected-dadfailed-errors-centos-rhel8-210fca0af724
 
 
 
