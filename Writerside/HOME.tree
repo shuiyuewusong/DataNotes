@@ -55,4 +55,18 @@
             <toc-element topic="Kibana安装.md"/>
         </toc-element>
     </toc-element>
+    <toc-element topic="国产软件.md">
+        <toc-element topic="英方.md">
+            <toc-element topic="安装包类型.md"/>
+            <toc-element topic="实验1-i2UP控制台部署和初始配置.md"/>
+            <toc-element topic="实验2-数据复制和方案(i2COOPY).md"/>
+            <toc-element topic="实验3-数据复制和恢复方案(i2CDP).md"/>
+            <toc-element topic="实验4-全服务器迁移方案(i2Move).md"/>
+            <toc-element topic="实验5-应用高可用(i2Availability).md"/>
+            <toc-element topic="实验6-全服务器备份和还原方案(i2FFO).md"/>
+            <toc-element topic="实验7-虚拟化平台备份和恢复(i2VP).md"/>
+            <toc-element topic="实验8-统一文档管理平台(i2Share).md"/>
+            <toc-element topic="实验9-i2DTO.md"/>
+        </toc-element>
+    </toc-element>
 </instance-profile>

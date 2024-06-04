@@ -1,0 +1,62 @@
+# 实验3-数据复制和恢复方案i2CDP
+
+## 目标
+
+- 掌握CDP配置参数。
+- 掌握CDP数据恢复。
+- 理解CDP数据组成。
+
+## 环境
+
+- 工作机选择vm1
+- 工作机和灾备机安装i2node软件。
+- 灾备机虚拟机添加一块新磁盘作为CDP存储。
+- 登录控制台，注册工作机和灾备机，授权CDP许可。
+- 灾备机操作系统使用自己全新部署的虚拟机 vm2
+
+## 拓扑
+
+![image.png](https://raw.githubusercontent.com/shuiyuewusong/Image-storage/main/test/image-2024-05-25-11-28-11-410.png)
+
+## 步骤和评分
+
+- vm2打快照，然后安装ZFS并创建ZFS存储池，参考附件zfs安装包和《文件实时复制用户手册》 【1分】
+
+如果lsmod |grep zfs返回为空，可以尝试 执行 modprobe zfs或重启一下vm2再检查lsmod | grep zfs
+
+- 对源端主机vm1的源数据目录产生测试数据 【1分】
+
+```Bash
+mkdir /test
+cd /test
+seq 10| xargs -i dd if=/dev/zero of={}.dat bs=1M count=1
+```
+
+- 创建复制规则，选择工作机vm1和灾备机vm2，路径映射选择多对一。【1分】
+
+- CDP设置页面，启用快照方式生成Baseline，配置细粒度快照策略和按天生成的快照策略，选择已有的存储池【1分】
+
+- 复制规则提交后，观察复制规则状态从镜像进入复制。【1分】
+
+- 复制规则运行后在源主机模拟批量创建文件、然后再模拟删除文件【1分】
+
+- 在控制台WEB页面进入你的CDP任务，浏览器URL会包含一串类似96EA4D8A-262F-4DB1-970D-41B87BEE5160的字符，这就是UUID)
+
+- 登录vm2，检查zfs文件系统（zfs list）以及zfs快照（zfs list -t snapshot）。【1分】
+
+- 登录vm2，先获取复制规则UUID使用getcdptime命令查看CDP数据情况。【1分】
+
+getcdptime 0 <复制规则UUID> desc
+
+- 删除源端主机vm1的某个文件A。- 创建CDP恢复规则，查看CDP日志。 【1分】
+
+- 通过CDP恢复规则实现原机异位置恢复，恢复数据为删除文件A操作前一时刻的数据状态【1分】
+
+**备注：**
+
+CDP实验完成后，删除实验所创建的数据复制和数据恢复任务，并删除测试目录下的临时文件。
+
+**课外思考：**
+
+如何使用CDP功能实现Oracle数据库的实时备份及恢复？
+
