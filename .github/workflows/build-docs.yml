@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  INSTANCE: '主页/HOME'
+  INSTANCE: 'Writerside/HOME'
   ARTIFACT: 'webHelpHOME2-all.zip'
   DOCKER_VERSION: '241.15989'
 
