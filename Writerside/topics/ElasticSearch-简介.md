@@ -23,7 +23,9 @@ Elasticsearch在速度可扩展性方面都非常的出色，所以他能够用�
 - replica：
     - Elasticsearch 为每个索引创建一个主分片和一个副本，用以保证数据可靠性
 
+## 官方网站
 
+[elastic](https://www.elastic.co/)
 
 
 

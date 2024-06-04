@@ -1,5 +1,9 @@
 # ElasticSearch本地搭建
 
+## 官方教程
+
+[install-elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/install-elasticsearch.html)
+
 ## 导入 Elasticsearch GPG 密钥
 
 ```Bash
@@ -37,8 +41,6 @@ export ELASTIC_PASSWORD="your_password"
 
 ![image_10.png](image_10.png)
 
-
-
 ## 多节点部署需要 进行操作
 
 修改每个节点的配置文件
@@ -56,7 +58,6 @@ export ELASTIC_PASSWORD="your_password"
 ## 修改配置文件配置集群内容
 
 参考文档:[ElasticSearch集群配置文件](ElasticSearch集群配置文件.md)
-
 
 ## 配置系统启动时自启动
 

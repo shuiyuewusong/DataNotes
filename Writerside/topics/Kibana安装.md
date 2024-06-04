@@ -1,5 +1,9 @@
 # Kibana安装
 
+## 官方教程
+
+[Install Kibana](https://www.elastic.co/guide/en/kibana/8.13/install.html)
+
 ## 导入 Elastic PGP 密钥
 
 ```Bash
@@ -42,6 +46,12 @@ sudo /bin/systemctl enable kibana.service
 sudo systemctl start kibana.service
 #sudo systemctl stop kibana.service
 ```
+
+## 启动kibana 后需要输入 生成的注册令牌 {id="kibana_1"}
+
+启动 Kibana 并输入注册令牌以将 Kibana 与 Elasticsearch 安全地连接。
+
+
 
 
 
