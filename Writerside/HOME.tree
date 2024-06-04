@@ -8,6 +8,11 @@
 
     <toc-element topic="starter-topic.md"/>
     <toc-element topic="实用工具.md">
+        <toc-element topic="TeamSpeak3.md">
+            <toc-element topic="软件安装.md"/>
+            <toc-element topic="软件初次使用.md"/>
+            <toc-element topic="软件后续使用.md"/>
+        </toc-element>
         <toc-element topic="Writerside.md">
             <toc-element topic="Writerside部署.md"/>
         </toc-element>
@@ -23,9 +28,21 @@
                 <toc-element topic="新建虚拟机需要进行的操作.md"/>
                 <toc-element topic="检测到IPv6重复地址dadfailed错误.md"/>
             </toc-element>
+            <toc-element topic="Ubuntu.md">
+                <toc-element topic="UFW防火墙设置.md"/>
+            </toc-element>
+        </toc-element>
+        <toc-element topic="通用.md">
+            <toc-element topic="JAVA部署.md"/>
+        </toc-element>
+    </toc-element>
+    <toc-element topic="网络配置.md">
+        <toc-element topic="SSL证书.md">
+            <toc-element topic="Windows安装自签名根证书.md"/>
         </toc-element>
     </toc-element>
     <toc-element topic="编程语言.md">
+        <toc-element topic="Markdown.md"/>
         <toc-element topic="JavaScript.md"/>
         <toc-element topic="JAVA.md"/>
         <toc-element topic="Rust.md"/>
