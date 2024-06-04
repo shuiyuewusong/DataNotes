@@ -50,7 +50,7 @@ ES_PORT=127.0.0.1:9200
 ### 要启动集群，请从项目目录运行以下命令。
 
 ```Bash
-docker-compose up -d
+docker compose up -d
 ```
 
 ### 集群启动后，在 Web 浏览器中 打开 即可访问 Kibana。
@@ -64,12 +64,12 @@ http://localhost:5601
 ### 要停止集群，请运行docker-compose down。使用 重新启动集群时，Docker 卷中的数据将被保留和加载docker-compose up。
 
 ```Bash
-docker-compose down
+docker compose down
 ```
 
 ### 要在停止集群时删除网络、容器和卷，请指定以下-v选项
 ```Bash
-docker-compose down -v
+docker compose down -v
 ```
 
 
