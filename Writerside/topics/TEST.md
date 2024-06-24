@@ -31,6 +31,14 @@ github6.ch7.top s CNAME
 
 
 
+github7.ch7.top  CNAME
+
+![8](http://github7.ch7.top/shuiyuewusong/Image-storage/main/image/202406241352692-2024-06-24-13-52-11-711.png)
+
+github7.ch7.top s CNAME
+
+![9](https://github7.ch7.top/shuiyuewusong/Image-storage/main/image/202406241352692-2024-06-24-13-52-11-711.png)
+
 
 
 
