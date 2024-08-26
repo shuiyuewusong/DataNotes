@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="6fb11680">
+        <description>Created after removal of "test2" from 主页</description>
+        <accepts>test2.html</accepts>
+    </rule>
+    <rule id="1bb64207">
+        <description>Created after removal of "安装" from 主页</description>
+        <accepts>安装.html</accepts>
+    </rule>
+</rules>

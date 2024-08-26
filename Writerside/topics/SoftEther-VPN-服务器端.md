@@ -66,34 +66,37 @@ docker run -d --cap-add NET_ADMIN -p 500:500/udp -p 4500:4500/udp -p 1701:1701/t
 
 需要提前安装的相关软件包
 
-- gcc software
-- binutils software
-- tar, gzip or other software for extracting package files
-- chkconfig system utility
-- cat, cp or other basic file operation utility
-- EUC-JP, UTF-8 or other code page table for use in a Japanese language environment
-- libc (glibc) library
-- zlib library
-- openssl library
-- readline library
-- ncurses library
-- pthread library
+```Bash
+# rhel
+sudo yum install openssl-devel readline-devel zlib-devel gcc binutils tar libc ncurses chkconfig 
+
+# ubuntu
+sudo apt install  libssl-dev libreadline-dev  zlib1g-dev gcc binutils tar libc ncurses chkconfig 
+
+```
 
 [https://www.softether.org/](https://www.softether.org/)
 
-![image_85.png](image_85.png)
-
-#### **解压安装包文件**
+#### **下载SoftEtherVPN_Stable代码**
 
 ```Bash
-tar xzvf vpnserver-5070-rtm-linux-x86.tar.gz
+git clone https://github.com/SoftEtherVPN/SoftEtherVPN_Stable.git
+```
+
+由于SoftEtherVPN_Stable存在地区限制
+
+```Bash
+# 修改src/Cedar/Server.c 中的 SiIsEnterpriseFunctionsRestrictedOnOpenSource 方法
+将判断中文和日语的方法返回值修改成 false
 ```
 
 #### <span class="color_font">执行make</span>
 
 ```Bash
-cd vpnserver
-make
+ cd SoftEtherVPN
+ ./configure
+ make
+ make install
 ```
 
 #### 执行安装
@@ -105,7 +108,7 @@ make
 #### 注册启动脚本
 
 ```Bash
-vim /etc/init.d/vpnserver
+sudo vim /etc/init.d/vpnserver
 ```
 
 ```Bash
@@ -229,3 +232,19 @@ sbin/chkconfig --add vpnserver
 ![image_99.png](image_99.png)
 
 #### 用户连接VPN请参考客户端使用手册
+
+## 路由相关配置
+
+### secureNAT
+
+- 不要配置默认网关
+- 配置子网掩码后
+
+- 配置静态路由表
+- 例:10.1.6.0/255.255.255.0/10.1.6.1, 10.0.1.0/255.255.255.0/10.1.6.1
+- 10.1.6.0 网段起始
+- 255.255.255.0 子网掩码
+- 10.1.6.1 这个分组的虚拟网络接口设置的IP地址
+
+
+

@@ -20,15 +20,15 @@
 
 ### 点击页面红框文件夹
 
-![image_102.png](image_102.png)
+点击Windows
 
 ### 找到需要下载的版本点击
 
-![image_103.png](image_103.png)
+例如 x86_64 就下载:n2n_v3_windows_x64_v3.1.1_r1255_by_heiye.zip
 
 ### 点击下载
 
-![image_104.png](image_104.png)
+点击文件后进入展示页 右上角有下载按钮点击即可下载
 
 ### 下载虚拟网卡插件
 
@@ -36,7 +36,7 @@
 
 ### 点击红框下载对应版本程序
 
-![image_105.png](image_105.png)
+点击 OpenVPN-2.6.12-I001-amd64.msi 进行下载
 
 ## 安装客户端及插件
 
@@ -47,27 +47,35 @@
 
 n2n_v3_windows_x64_v3.1.1_r1255_static_by_heiye.zip
 
-![image_106.png](image_106.png)
+- supernode_upx.exe
+- supernode.exe
+- n2n-route_upx.exe
+- n2n-route.exe
+- n2n-portfwd_upx.exe
+- n2n-portfwd.exe
+- n2n-keygen_upx.exe
+- n2n-keygen.exe
+- n2n-benchmark_upx.exe
+- n2n-benchmark.exe
+- edge_upx.exe
+- edge.exe
 
 ## 安装openVPN虚拟网卡插件
 
 ### 双击打开OpenVPN-2.6.5-I001-amd64.msi
 
-![image_107.png](image_107.png)
-
 ### 点击Customize
 
 ### 删除不需要的组件
 
-![image_108.png](image_108.png)
+取消勾选 OpenVPN 全部配置
+仅勾选Drivers TAP-Windows6
 
 ### 仅安装TAP-Windows6组件
 
-![image_109.png](image_109.png)
+除了OpenVPN 以外 其他全部打上X
 
 ### 点击install now
-
-![image_110.png](image_110.png)
 
 ### 等待安装完成
 
@@ -77,27 +85,23 @@ n2n_v3_windows_x64_v3.1.1_r1255_static_by_heiye.zip
 
 即可看到对应的虚拟网卡
 
-![image_111.png](image_111.png)
+OpenVPN TAP-Windows6
+网络电缆被拔出
+TAP-Windows Adapter V9
 
 ## 编辑客户端配置文件
 
 ### 在有edge.exe文件的目录新建文件 edge.conf
 
-![image_112.png](image_112.png)
-
 ### 可新建记事本并改名成edge.conf程序类型一定是conf
-
-![image_113.png](image_113.png)
 
 ### 右键打开方式 使用记事本打开
 
-![image_114.png](image_114.png)
-
 ### 编写edge.conf
 
-![image_115.png](image_115.png)
+复制下面文本到edge.conf
 
-```
+```Bash
 #社区名称
 -c=gameplay
 #节点名称及端口
@@ -127,7 +131,7 @@ n2n_v3_windows_x64_v3.1.1_r1255_static_by_heiye.zip
 
 ### 启动方式1:填写好相关信息后使用管理员CMD启动
 
-![image_116.png](image_116.png)
+输入 .\edge.exe edge.conf
 
 #### 执行截图命令即可启动
 
@@ -135,21 +139,24 @@ n2n_v3_windows_x64_v3.1.1_r1255_static_by_heiye.zip
 
 #### 右键edge.exe
 
-![image_117.png](image_117.png)
+点击创建快捷方式
 
 #### 创建快捷方式
 
 #### 右键快捷方式点击属性
 
-![image_118.png](image_118.png)
-
 #### edge.exe后添加edge.conf {id="edge-exe-edge-conf_1"}
 
-![image_119.png](image_119.png)
+修改目标在edge.exe 后加空格 和 edge.conf
+例子:
+
+```Bash
+C:\tool\n2n\edge.exe edge.conf
+```
 
 #### 点击兼容性选择以管理员运行此程序
-
-![image_120.png](image_120.png)
+右键快捷方式或edge.exe 点击属性-兼容性
+勾选 以管理员身份运行此程序
 
 #### 点击应用,确认
 
@@ -157,8 +164,13 @@ n2n_v3_windows_x64_v3.1.1_r1255_static_by_heiye.zip
 
 ### 允许程序穿过防火墙(专用公用都打勾)
 
-![image_121.png](image_121.png)
+点击允许访问
 
 ### 启动成功
-
-![image_122.png](image_122.png)
+日志输出如下内容  
+```
+created local tap device IP: xxx.xxx.xxx.xxx,Mask: 255.255.255.0,MAC:xx:xx:xx:xx:xx:xx  
+edge started   
+successfully joined multicast group xxx.xx.xx.xx:xxx  
+edge <<< ====================== >>> supernode  
+```
