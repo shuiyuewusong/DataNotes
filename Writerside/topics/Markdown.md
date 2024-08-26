@@ -132,8 +132,7 @@
 ```
 
 #### 效果如下:
-
-![image_23.png](image_23.png '图片title')
+![test.jpg](test.jpg '图片title')
 
 ## 六、超链接
 

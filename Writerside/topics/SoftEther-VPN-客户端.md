@@ -4,7 +4,7 @@
 
 ## 下载软件
 
-下载链接:[https://www.softether-download.com/cn.aspx?product=softether](https://www.softether-download.com/cn.aspx?product=softether)
+下载链接:[](https://www.softether-download.com/cn.aspx?product=softether)
 
 #### 网页操作步骤:
 

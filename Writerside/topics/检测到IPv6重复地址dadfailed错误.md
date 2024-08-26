@@ -1,5 +1,9 @@
 # 检测到IPv6重复地址dadfailed错误
 
+## 此问题系使用模板导致
+
+> 建议使用镜像 通过无人值守安装方式进行解决
+
 ## 问题原因
 
 所有 IPv6 IP 都发生了一些事情，看起来 IPv6 MAC 生成与 VM 的机器 ID 相关联，并且由于环境被克隆 - 所有服务器的机器 ID
@@ -29,7 +33,7 @@ chmod ugo-w /etc/machine-id
 
 ## 相关资料
 
-https://raj-anju.medium.com/virsh-cloning-vms-dad-ipv6-duplicate-address-detected-dadfailed-errors-centos-rhel8-210fca0af724
+[参考~~~~](https://raj-anju.medium.com/virsh-cloning-vms-dad-ipv6-duplicate-address-detected-dadfailed-errors-centos-rhel8-210fca0af724)
 
 
 

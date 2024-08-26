@@ -1,3 +1,3 @@
-# Liunx
+# Linux
 
 Start typing here...

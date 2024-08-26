@@ -1,7 +1,7 @@
-# web小说reader
+# Reader WEB小说
 
-官方文档地址
-[https://github.com/hectorqin/reader](https://github.com/hectorqin/reader)
+官方文档地址  
+[](https://github.com/hectorqin/reader)
 
 ## Linux部署
 
@@ -13,7 +13,7 @@ unzip reader-server-$version.zip
 # 检查端口是否开放
 ```
 
-![image_123.png](image_123.png)
+文件名: reader-server-3.2.10.zip
 
 ```Bash
 #执行命令
@@ -30,5 +30,3 @@ conf/app** 文件可以修改其他配置
 ## 已知问题
 
 grep 命令 -Eo O大写了需要手动改成小写
-
-![image_124.png](image_124.png)

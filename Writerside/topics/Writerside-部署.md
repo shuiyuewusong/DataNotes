@@ -1,10 +1,10 @@
-# Writerside部署
+# Writerside 部署
 
 将Writerside部署部署到GitHubPages上
 
 ## 官方资料
 
-[Build and publish on GitHub](https://www.jetbrains.com/help/writerside/deploy-docs-to-github-pages.html)
+[](https://www.jetbrains.com/help/writerside/deploy-docs-to-github-pages.html)
 
 ## 操作方法
 
@@ -119,5 +119,5 @@ jobs:
 ### 正常情况下完成后会显示文件链接 打开即可查看你的文档
 
 Deployments
-    点击文档
+点击文档
 

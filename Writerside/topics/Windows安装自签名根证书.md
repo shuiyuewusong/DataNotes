@@ -6,35 +6,24 @@
 
 ## 双击打开根证书
 
-![image_16.png](image_16.png)
-
 ## 点击下方安装证书
-
-![image_17.png](image_17.png)
 
 ## 选择本地计算机进行安装
 
 ## 同意用户账户控制提醒
 
-## 选择将证书放入下列储存
+## 选择将所有的证书放入下列储存
 
-![image_18.png](image_18.png)
+点击浏览(R)...
 
 ## 选择受信任的根证书安装机构
 
-![image_19.png](image_19.png)
-
 ## 点击下一步
-
-![image_20.png](image_20.png)
 
 ## 点击完成
 
 ## 此时由此根证书签发的所有证书均会显示受信任的证书
 
-![image_21.png](image_21.png)
-
-![image_22.png](image_22.png)
 
 
 

@@ -1,22 +1,22 @@
-# SoftEther VPN 服务器端配置手册
+# SoftEther VPN 服务端
 
 ## 官方相关资料及网站
 
 #### 官网
 
-[https://www.softether.org/](https://www.softether.org/)
+[](https://www.softether.org/)
 
 #### 开源代码
 
-[https://github.com/SoftEtherVPN/SoftEtherVPN](https://github.com/SoftEtherVPN/SoftEtherVPN)
+[](https://github.com/SoftEtherVPN/SoftEtherVPN)
 
 #### 容器镜像
 
-[https://hub.docker.com/r/siomiz/softethervpn](https://hub.docker.com/r/siomiz/softethervpn)
+[](https://hub.docker.com/r/siomiz/softethervpn)
 
 #### 官方下载站点
 
-[https://www.softether-download.com/cn.aspx](https://www.softether-download.com/cn.aspx)
+[](https://www.softether-download.com/cn.aspx)
 
 ## 本次部署使用docker部署 {id="docker_1"}
 
@@ -60,7 +60,7 @@ docker run -d --cap-add NET_ADMIN -p 500:500/udp -p 4500:4500/udp -p 1701:1701/t
 
 ### 虚拟机/物理机部署
 
-[https://www.softether.org/4-docs/1-manual/7.\_Installing\_SoftEther\_VPN\_Server/7.3\_Install\_on\_Linux\_and\_Initial\_Configurations](https://www.softether.org/4-docs/1-manual/7._Installing_SoftEther_VPN_Server/7.3_Install_on_Linux_and_Initial_Configurations)
+[](https://www.softether.org/4-docs/1-manual/7._Installing_SoftEther_VPN_Server/7.3_Install_on_Linux_and_Initial_Configurations)
 
 安装使用Centos请提前准备好
 
@@ -75,7 +75,7 @@ sudo apt install  libssl-dev libreadline-dev  zlib1g-dev gcc binutils tar libc n
 
 ```
 
-[https://www.softether.org/](https://www.softether.org/)
+[](https://www.softether.org/)
 
 #### **下载SoftEtherVPN_Stable代码**
 
@@ -157,7 +157,7 @@ sbin/chkconfig --add vpnserver
 
 前往官方下载网站下载服务器端安装包
 
-[https://www.softether-download.com/cn.aspx](https://www.softether-download.com/cn.aspx)
+[](https://www.softether-download.com/cn.aspx)
 
 - windows
 - 选择 SoftEther VPN (Freeware)
@@ -218,7 +218,7 @@ sbin/chkconfig --add vpnserver
 ##### secureNAT
 
 如果不需要用户将全部数据流量均代理至VPN则需要不填写默认网关  
-进行编辑静态路由表进行特定网段路由,使用详情请参考说明  
+进行编辑静态路由表进行特定网段路由,使用详情请参考说明
 
 - 不要配置默认网关
 - 配置子网掩码后

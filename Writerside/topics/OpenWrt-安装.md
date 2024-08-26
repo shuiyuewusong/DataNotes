@@ -2,7 +2,7 @@
 
 ## 通过官方下载安装包
 
-- 打开官网 [https://openwrt.org/downloads](https://openwrt.org/downloads)
+- 打开官网 [](https://openwrt.org/downloads)
 - 点击 Stable Release builds
 - 点击最新版本号例子:23.05.4/
 - 以x86_64为例 依次点击:targets/x86/64/

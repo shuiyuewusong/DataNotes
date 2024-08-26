@@ -14,12 +14,13 @@
             <toc-element topic="OpenWrt-安装.md"/>
         </toc-element>
         <toc-element topic="N2N.md">
-            <toc-element topic="N2N客户端安装.md"/>
-            <toc-element topic="N2N服务端部署.md"/>
+            <toc-element topic="N2N-客户端-安装.md"/>
+            <toc-element topic="N2N-服务端-部署.md"/>
         </toc-element>
         <toc-element topic="SoftEther-VPN.md">
-            <toc-element topic="SoftEther-VPN-服务器端.md"/>
-            <toc-element topic="SoftEther-VPN客户端.md"/>
+            <toc-element topic="SoftEther-VPN-服务端.md"/>
+            <toc-element topic="SoftEther-VPN-客户端.md"/>
+            <toc-element topic="SoftEther-VPN-创建证书.md"/>
         </toc-element>
         <toc-element topic="TeamSpeak3.md">
             <toc-element topic="软件安装.md"/>
@@ -27,13 +28,14 @@
             <toc-element topic="软件后续使用.md"/>
         </toc-element>
         <toc-element topic="Writerside.md">
-            <toc-element topic="Writerside部署.md"/>
+            <toc-element topic="Writerside-部署.md"/>
+            <toc-element topic="Writerside-命名规则.md"/>
         </toc-element>
-        <toc-element topic="web小说reader.md"/>
+        <toc-element topic="Reader-Web小说.md"/>
     </toc-element>
     <toc-element topic="操作系统.md">
         <toc-element topic="Windows.md"/>
-        <toc-element topic="Liunx.md">
+        <toc-element topic="Linux.md">
             <toc-element topic="Rocky.md">
                 <toc-element topic="防火墙配置.md"/>
                 <toc-element topic="时间同步.md"/>

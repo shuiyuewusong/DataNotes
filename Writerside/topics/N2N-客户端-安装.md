@@ -2,11 +2,11 @@
 
 ### 客户端安装包:
 
-[https://github.com/lucktu/n2n](https://github.com/lucktu/n2n)
+[](https://github.com/lucktu/n2n)
 
 ### 虚拟网卡插件:
 
-[https://openvpn.net/community-downloads/](https://openvpn.net/community-downloads/)
+[](https://openvpn.net/community-downloads/)
 
 ## 下载客户端安装包及插件
 
@@ -16,7 +16,7 @@
 
 ### 登陆网页
 
-[https://github.com/lucktu/n2n](https://github.com/lucktu/n2n)
+[](https://github.com/lucktu/n2n)
 
 ### 点击页面红框文件夹
 
@@ -32,7 +32,7 @@
 
 ### 下载虚拟网卡插件
 
-[https://openvpn.net/community-downloads/](https://openvpn.net/community-downloads/)
+[](https://openvpn.net/community-downloads/)
 
 ### 点击红框下载对应版本程序
 
