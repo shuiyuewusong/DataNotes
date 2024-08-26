@@ -1,4 +1,4 @@
-# OpenWrt-配置
+# OpenWrt 配置
 
 ## 访问OpenWrt
 

@@ -10,9 +10,7 @@
 
 ### 打开pages 设置界面
 
-项目-settings-pages
-
-![image_11.png](image_11.png)
+项目-settings-pages-Build and deployment
 
 点击 create you own
 
@@ -21,7 +19,7 @@
 配置文件名(随意命名需要以.yml结尾)
 文件内容可根据官方资料复制或者使用该文档下方代码处复制
 
-![image_12.png](image_12.png)
+例: build-docs.yml
 
 ```yaml
 # 该文件需要修改部分进行了备注
@@ -110,7 +108,7 @@ jobs:
 
 ### 保存该文件
 
-![image_13.png](image_13.png)
+点击 commit changes..
 
 ### 检查Actions运行情况
 
@@ -118,9 +116,8 @@ jobs:
 - 绿色: 已完成
 - 红色: 错误
 
-![image_14.png](image_14.png)
-
 ### 正常情况下完成后会显示文件链接 打开即可查看你的文档
 
-![image_15.png](image_15.png)
+Deployments
+    点击文档
 

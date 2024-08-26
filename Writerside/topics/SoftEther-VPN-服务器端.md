@@ -159,7 +159,11 @@ sbin/chkconfig --add vpnserver
 
 [https://www.softether-download.com/cn.aspx](https://www.softether-download.com/cn.aspx)
 
-![image_86.png](image_86.png)
+- windows
+- 选择 SoftEther VPN (Freeware)
+- SoftEther VPN Server Manager for Windows
+- Windows
+- Intel (x86 and x64)
 
 #### 安装
 
@@ -167,75 +171,54 @@ sbin/chkconfig --add vpnserver
 
 #### 打开安装包后点击下一步
 
-![image_87.png](image_87.png)
-
 #### 允许此设备对你的设备进行更改
 
-#### 选择下一步
+#### 选择安装一个软件部分
 
-![image_88.png](image_88.png)
+下一步
 
-#### 同意,下一步
+#### 最终用户许可协议
 
-![image_89.png](image_89.png)
+勾选我同意
+下一步
 
-#### 后面依次点击下一步直至安装完成
+#### 安装目录
 
-![image_90.png](image_90.png)
+后面依次点击下一步直至安装完成
 
 #### 服务器端使用
 
-下图为服务器端管理工具界面
-
-![image_91.png](image_91.png)
-
 #### 首次打开需要点击新设置连接搭建的服务器端
 
-![image_92.png](image_92.png)
+点击新设置
+
+- 填写设置名 方便分类.
+- 填写主机名 部署服务的主机IP地址
+- 填写端口号 一般是5555
+- 填写密码 填写安装服务器端设置的密码
+- 点击确认
 
 #### 填写完成后双击,或者点击选中后点连接
 
-![image_93.png](image_93.png)
-
 #### 管理虚拟HUB
 
-![image_94.png](image_94.png)
+虚拟hub类似三层交换机方便不同用户分组不同组之间不能互相访问
+
+双击或单机点击管理虚拟HUB 可进入HUB管理页面
 
 #### 管理用户
 
-![image_95.png](image_95.png)
+- 可点击管理用户进行添加
+- 新建用户可选择使用不同的认证方式进行添加以便用户进行登录 建议使用密码验证或特定证书,签名证书认证
 
-可点击管理用户进行添加
+#### 虚拟NAT和虚拟DHCP服务器
 
-新建用户可选择使用不同的认证方式进行添加以便用户进行登录
+配置VPN虚拟化网络,给用户分配内网IP提供互相之间的访问.
 
-![image_96.png](image_96.png)
+##### secureNAT
 
-#### 虚拟NET和虚拟DHCP
-
-给用户分配内网IP提供互相之间的访问
-
-![image_97.png](image_97.png)
-
-![image_98.png](image_98.png)
-
-如果不需要用户将全部数据流量均代理至VPN则需要不填写默认网关进行编辑静态路由表进行特定网段路由,使用详情请参考说明
-
-#### IPsec/L2TP 设置
-
-如果移动设备需要访问则需要添加该支持
-
-请参照说明进行设置和勾选
-
-建议使用预共享密钥密钥不易被获取记录
-
-![image_99.png](image_99.png)
-
-#### 用户连接VPN请参考客户端使用手册
-
-## 路由相关配置
-
-### secureNAT
+如果不需要用户将全部数据流量均代理至VPN则需要不填写默认网关  
+进行编辑静态路由表进行特定网段路由,使用详情请参考说明  
 
 - 不要配置默认网关
 - 配置子网掩码后
@@ -245,6 +228,16 @@ sbin/chkconfig --add vpnserver
 - 10.1.6.0 网段起始
 - 255.255.255.0 子网掩码
 - 10.1.6.1 这个分组的虚拟网络接口设置的IP地址
+
+#### IPsec/L2TP 设置
+
+- 如果移动设备需要访问则需要添加该支持
+- 请参照说明进行设置和勾选
+- 建议使用预共享密钥密钥不易被盗取密码
+- 勾选启用L2TP服务器功能
+- 设置 IPsec 通用设置预共享密钥
+
+#### 用户连接VPN请参考客户端使用手册
 
 
 
