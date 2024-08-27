@@ -30,14 +30,6 @@ rpm -ivh info2soft-webconsole-7.1.74.23110309-el7.x86_64.rpm
 
 ```
 
-![image.png](https://raw.githubusercontent.com/shuiyuewusong/Image-storage/main/test/image-2024-05-25-09-45-23-786.png)
-
-![image.png](https://raw.githubusercontent.com/shuiyuewusong/Image-storage/main/test/image-2024-05-25-09-48-56-734.png)
-
-![image.png](https://raw.githubusercontent.com/shuiyuewusong/Image-storage/main/test/image-2024-05-25-09-49-30-415.png)
-
-![image.png](https://raw.githubusercontent.com/shuiyuewusong/Image-storage/main/test/image-2024-05-25-09-48-48-919.png)
-
 − 关闭vm3_i2UP_Server防火墙（使用命令 systemctl stop firewalld 和 systemctl disable firewalld）
 
 ```Bash
@@ -50,17 +42,15 @@ systemctl disable firewalld.service
 - sysadmin管理角色、创建用户、不具备灾备功能的操作权限
 
 - admin 账号：具备所有备灾备功能的操作权限、系统配置权限
-  登录控制台:https://192.168.214.129:58086/  
-  sysadmin Qwer1234.  
-  重置密码:  Qwer1234!  
-  重置admin密码  
-  ![image.png](https://raw.githubusercontent.com/shuiyuewusong/Image-storage/main/test/image-2024-05-25-10-03-34-313.png)
-  admin Qwer1234!  
-  重置密码:  Qwer1234@
+    - 登录控制台:https://192.168.214.129:58086/
+    - sysadmin Qwer1234.
+    - 重置密码:  Qwer1234!
+    - 重置admin密码
+    - admin Qwer1234!
+    - 重置密码:  Qwer1234@
 
 - 联系英方软件市场部同事获取license 【2分】
 
-![image.png](https://raw.githubusercontent.com/shuiyuewusong/Image-storage/main/test/image-2024-05-25-10-09-55-476.png)
 
 - 获取license后，登录i2UP控制台完成license导入 【2分】
 
@@ -72,8 +62,6 @@ yum install psmisc unzip zip -y
 rpm -ivh info2soft-i2node-7.1.74.23110309-el7.x86_64.rpm
 
 ```
-
-![image.png](https://raw.githubusercontent.com/shuiyuewusong/Image-storage/main/test/image-2024-05-25-10-20-15-676.png)
 
 ## 附录
 

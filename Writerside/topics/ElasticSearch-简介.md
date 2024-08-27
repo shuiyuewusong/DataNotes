@@ -4,8 +4,6 @@ Elasticsearch 是一个分布式的免费开源搜索和分析引擎，适用于
 
 Elasticsearch在速度可扩展性方面都非常的出色，所以他能够用于多种用例当中：应用程序的搜索网站的搜索日志数据处理和安全分析等场景中。
 
-![image_9.png](image_9.png)
-
 ## ElasticSearch核心概念
 
 - cluster：

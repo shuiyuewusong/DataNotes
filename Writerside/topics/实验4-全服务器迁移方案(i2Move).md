@@ -14,7 +14,6 @@
 - 工作机vm1安装i2node软件（需加载sfs复制驱动以及块复制驱动）
 - 灾备机vm2 安装i2node软件
 - 灾备机B使用livecd引导镜像启动系统，配置网络。 livecd引导镜像下载
-  ![image.png](https://raw.githubusercontent.com/shuiyuewusong/Image-storage/main/test/image-2024-05-25-13-13-22-728.png)
 - 登录控制台，注册工作机、灾备机A、灾备机B，授权move许可。
 
 ## 文件级迁移要求
@@ -27,7 +26,6 @@
 - 迁移规则状态变为重启就绪，点击重启，等状态变为“完成” 【2分】
 - 割接完成后在目标主机vm2验证Oracle数据库 (做Oracle查询操作确认数据库可用） 【2分】
 - 拓扑
-  ![image.png](https://raw.githubusercontent.com/shuiyuewusong/Image-storage/main/test/image-2024-05-25-13-13-37-470.png)
 
 **备注：**
 

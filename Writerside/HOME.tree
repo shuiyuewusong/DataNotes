@@ -49,19 +49,37 @@
             </toc-element>
         </toc-element>
         <toc-element topic="通用.md">
-            <toc-element topic="JAVA部署.md"/>
+            <toc-element topic="JAVA部署.md">
+                <toc-element topic="编程语言.md">
+                    <toc-element topic="Markdown.md"/>
+                    <toc-element topic="JavaScript.md"/>
+                    <toc-element topic="JAVA.md"/>
+                    <toc-element topic="Rust.md">
+                        <toc-element topic="中间件.md">
+                            <toc-element topic="Docker.md">
+                                <toc-element topic="Docker-Compose安装.md"/>
+                            </toc-element>
+                            <toc-element topic="Elasticsearch.md">
+                                <toc-element topic="前置准备.md"/>
+                                <toc-element topic="生产注意事项.md"/>
+                                <toc-element topic="ElasticSearch-简介.md"/>
+                                <toc-element topic="ElasticSearch节点类型.md"/>
+                                <toc-element topic="ElasticSearch本地搭建.md"/>
+                                <toc-element topic="ElasticSearch集群配置文件.md"/>
+                                <toc-element topic="ElasticSearch集群搭建.md"/>
+                                <toc-element topic="ElasticSearch搭建DockerCompose多节点.md"/>
+                                <toc-element topic="Kibana安装.md"/>
+                            </toc-element>
+                        </toc-element>
+                    </toc-element>
+                </toc-element>
+            </toc-element>
         </toc-element>
     </toc-element>
     <toc-element topic="网络配置.md">
         <toc-element topic="SSL证书.md">
             <toc-element topic="Windows安装自签名根证书.md"/>
         </toc-element>
-    </toc-element>
-    <toc-element topic="编程语言.md">
-        <toc-element topic="Markdown.md"/>
-        <toc-element topic="JavaScript.md"/>
-        <toc-element topic="JAVA.md"/>
-        <toc-element topic="Rust.md"/>
     </toc-element>
     <toc-element topic="二次开发操作手册.md">
         <toc-element topic="WPS-JS-API.md">
@@ -70,22 +88,6 @@
             <toc-element topic="环境依赖.md"/>
             <toc-element topic="开发手册.md"/>
             <toc-element topic="组件关系.md"/>
-        </toc-element>
-    </toc-element>
-    <toc-element topic="中间件.md">
-        <toc-element topic="Docker.md">
-            <toc-element topic="Docker-Compose安装.md"/>
-        </toc-element>
-        <toc-element topic="Elasticsearch.md">
-            <toc-element topic="前置准备.md"/>
-            <toc-element topic="生产注意事项.md"/>
-            <toc-element topic="ElasticSearch-简介.md"/>
-            <toc-element topic="ElasticSearch节点类型.md"/>
-            <toc-element topic="ElasticSearch本地搭建.md"/>
-            <toc-element topic="ElasticSearch集群配置文件.md"/>
-            <toc-element topic="ElasticSearch集群搭建.md"/>
-            <toc-element topic="ElasticSearch搭建DockerCompose多节点.md"/>
-            <toc-element topic="Kibana安装.md"/>
         </toc-element>
     </toc-element>
     <toc-element topic="国产软件.md">

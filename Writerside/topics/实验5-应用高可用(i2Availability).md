@@ -20,8 +20,6 @@
 
 ## 拓扑
 
-![image.png](https://raw.githubusercontent.com/shuiyuewusong/Image-storage/main/test/image-2024-05-25-16-16-59-715.png)
-
 ## 要求
 
 - 创建高可用规则，配置如下： 1）基本设置页面，启用自动切换。 2）考虑到心跳脑裂情况，本实验配置仲裁节点（控制台主机需安装i2node软件）【1分】

@@ -15,8 +15,6 @@
 
 ## 拓扑
 
-![image.png](https://raw.githubusercontent.com/shuiyuewusong/Image-storage/main/test/image-2024-05-25-22-44-11-798.png)
-
 ## 要求
 
 - vm2完成i2VP所需的NPServer、和备份服务器的注册和i2vp_plugin的安装，提供截图并说明【2分】

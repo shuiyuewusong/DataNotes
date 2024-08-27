@@ -14,8 +14,6 @@
 
 ## 拓扑
 
-![image.png](https://raw.githubusercontent.com/shuiyuewusong/Image-storage/main/test/image-2024-05-25-10-31-56-547.png)
-
 ## 预检步骤
 
 1. 查下sfs是否加载`lsmod |grep sfs `

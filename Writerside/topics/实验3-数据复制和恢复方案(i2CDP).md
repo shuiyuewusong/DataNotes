@@ -16,8 +16,6 @@
 
 ## 拓扑
 
-![image.png](https://raw.githubusercontent.com/shuiyuewusong/Image-storage/main/test/image-2024-05-25-11-28-11-410.png)
-
 ## 步骤和评分
 
 - vm2打快照，然后安装ZFS并创建ZFS存储池，参考附件zfs安装包和《文件实时复制用户手册》 【1分】

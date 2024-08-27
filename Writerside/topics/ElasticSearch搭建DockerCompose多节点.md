@@ -55,7 +55,7 @@ docker compose up -d
 
 ### 集群启动后，在 Web 浏览器中 打开 即可访问 Kibana。
 
-http://localhost:5601
+[](http://localhost:5601)
 
 ### elastic使用ELASTIC_PASSWORD您之前设置的 用户 身份登录 Kibana
 
@@ -68,6 +68,7 @@ docker compose down
 ```
 
 ### 要在停止集群时删除网络、容器和卷，请指定以下-v选项
+
 ```Bash
 docker compose down -v
 ```

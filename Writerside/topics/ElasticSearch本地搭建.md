@@ -39,7 +39,11 @@ export ELASTIC_PASSWORD="your_password"
 
 ```
 
-![image_10.png](image_10.png)
+密码信息如下:
+
+```Bash
+The generated password for the elastic built-in superuser is：3*dYSLmj4iLAU_voMNkG
+```
 
 ## 多节点部署需要 进行操作
 
