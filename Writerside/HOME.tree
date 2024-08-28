@@ -10,8 +10,11 @@
         <toc-element topic="TEST.md"/>
     </toc-element>
     <toc-element topic="实用工具.md">
+        <toc-element topic="Portainer.md"/>
         <toc-element topic="OpenWrt.md">
             <toc-element topic="OpenWrt-安装.md"/>
+            <toc-element topic="OpenWrt-插件.md"/>
+            <toc-element topic="OpenWrt-扩容分区.md"/>
         </toc-element>
         <toc-element topic="N2N.md">
             <toc-element topic="N2N-客户端-安装.md"/>
@@ -49,6 +52,9 @@
             </toc-element>
         </toc-element>
         <toc-element topic="通用.md">
+            <toc-element topic="终端配置代理.md"/>
+            <toc-element topic="Bash-Completion.md"/>
+            <toc-element topic="SSH.md"/>
             <toc-element topic="JAVA部署.md">
                 <toc-element topic="编程语言.md">
                     <toc-element topic="Markdown.md"/>
