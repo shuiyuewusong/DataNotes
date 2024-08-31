@@ -1,4 +1,4 @@
-# OpenWrt-扩容分区
+# OpenWrt 扩容分区
 
 此方案仅适合EXT4固件
 
@@ -157,6 +157,7 @@ Writing superblocks and filesystem accounting information: done
 - UUID 选择新分区 /dev/nvme0n1p3
 - 挂载点 选择根目录
 - 拷贝 根目录准备命令
+- 点击保存&点击保存并应用
   例:
   ```Bash
   mkdir -p /tmp/introot
@@ -179,7 +180,11 @@ Writing superblocks and filesystem accounting information: done
   
   
   ```
-  粘贴到命令行执行
+  复制粘贴到命令行执行
+
+## 挂载 
+- nvme0n1p4 挂载/docker
+- nvme0n1p5 挂载/data
 
 ## reboot 重启
 

@@ -61,11 +61,14 @@
 #设置root密码
 passwd
 
+
 #修改默认的网口分配
 vim /etc/config/network 
 ```
 
-lan 设置: 将eth0 修改成eth1
+> 如果需要将第一个网口调整成wan口需要进行如下操作
+
+lan 设置: 将eth1 修改成eth0
 wan wan6设置: 将eth1 修改成eth0
 这样保证一号口是wan口便于记忆
 
@@ -77,4 +80,4 @@ config interface 'lan'
 
 ## 接入设备
 
-将光猫接入第一个网口 将内网设备/笔记本电脑/PC接入到第二个设备
+将光猫接入第二个网口 将内网设备/笔记本电脑/PC接入到第一个网口
