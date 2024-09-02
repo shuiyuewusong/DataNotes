@@ -7,8 +7,12 @@
 #### 时间同步
 
 NTP地址
-- ntp.ntsc.ac.cn
-- ntp.tuna.tsinghua.edu.cn
+- 阿里云
+  - `ntp.aliyun.com`
+- 腾讯
+  - `ntp.ntsc.ac.cn`
+- 上海交大
+  - `ntp.sjtu.edu.cn`
 
 ## 网络
 
