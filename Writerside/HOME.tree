@@ -19,6 +19,8 @@
             <toc-element topic="OpenWrt-插件.md"/>
             <toc-element topic="OpenWrt-扩容分区.md"/>
             <toc-element topic="OpenWrt-设置.md"/>
+            <toc-element topic="OpenWrt-IPv6配置.md"/>
+            <toc-element topic="OpenWrt-端口转发配置.md"/>
         </toc-element>
         <toc-element topic="N2N.md">
             <toc-element topic="N2N-客户端-安装.md"/>
