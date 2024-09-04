@@ -5,6 +5,10 @@
 [https://github.com/MetaCubeX/mihomo](https://github.com/MetaCubeX/mihomo)
 [https://clash.wiki/](https://clash.wiki/)
 
+## 参考文档
+
+[](https://wiki.metacubex.one/config/rule-providers/content/)
+[](https://clash.wiki/configuration/configuration-reference.html)
 ## Clash 基础配置
 
 ```yaml
