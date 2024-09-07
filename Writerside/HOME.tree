@@ -44,7 +44,10 @@
         </toc-element>
     </toc-element>
     <toc-element topic="常用配置.md">
-        <toc-element topic="网络磁盘-提示有害.md"/>
+        <toc-element topic="网络磁盘.md">
+            <toc-element topic="网络磁盘-提示有害.md"/>
+            <toc-element topic="网络磁盘-盘符分配.md"/>
+        </toc-element>
     </toc-element>
     <toc-element topic="操作系统.md">
         <toc-element topic="通用.md">
