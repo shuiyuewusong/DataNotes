@@ -10,6 +10,7 @@
         <toc-element topic="TEST.md"/>
     </toc-element>
     <toc-element topic="实用工具.md">
+        <toc-element topic="Upscayl.md"/>
         <toc-element topic="CopyQ.md"/>
         <toc-element topic="Iperf.md"/>
         <toc-element topic="N2N.md">
