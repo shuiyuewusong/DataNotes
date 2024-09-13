@@ -9,6 +9,7 @@ ufw disable     #禁用防火墙
 ufw reload      #重载防火墙
 ufw reset       #重新设置防火墙 (注意：这将禁用UFW并删除之前定义的任何规则)
 ufw verbose     #查看防火墙策略
+ufw allow 9443/tcp # 放行端口
 
 ```
 
