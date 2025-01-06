@@ -85,7 +85,9 @@ certbot renew --dry-run \
     --work-dir "/app/certbot/work" \
     --logs-dir "/app/certbot/log"
 ```
-日志 
+
+日志
+
 ```Log
 Saving debug log to /app/certbot/log/letsencrypt.log
 
@@ -99,4 +101,5 @@ Congratulations, all simulated renewals succeeded:
   /app/certbot/config/live/ch7.top/fullchain.pem (success)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 ```
+
 默认情况下 certbot 会自动续订证书并更新 证书信息 所以不需要自行配置自动续订设置
