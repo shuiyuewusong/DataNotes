@@ -51,6 +51,7 @@
         <toc-element topic="Rime-小狼毫.md"/>
         <toc-element topic="Reader-Web小说.md"/>
         <toc-element topic="TeamSpeak3.md">
+            <toc-element topic="服务端部署.md"/>
             <toc-element topic="软件安装.md"/>
             <toc-element topic="软件初次使用.md"/>
             <toc-element topic="软件后续使用.md"/>
