@@ -102,4 +102,13 @@ Congratulations, all simulated renewals succeeded:
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 ```
 
-默认情况下 certbot 会自动续订证书并更新 证书信息 所以不需要自行配置自动续订设置
+~~默认情况下 certbot 会自动续订证书并更新 证书信息 所以不需要自行配置自动续订设置~~
+
+### 配置自动续订 
+添加到crontab里面 定时执行  
+```Bash
+crontab -e 
+# 编辑定时任务 0分 0时 每日 每月 每周 执行任务
+0 0 * * *  root certbot renew --cert-name ch7.top --config-dir "/app/certbot/config" --work-dir "/app/certbot/work" --logs-dir "/app/certbot/log" --manual-auth-hook "/app/certbot/certbot-aliyun/au.sh python aly add" --manual-cleanup-hook "/app/certbot/certbot-aliyun/au.sh python aly clean"
+
+```
