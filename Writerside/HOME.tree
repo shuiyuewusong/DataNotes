@@ -10,6 +10,7 @@
         <toc-element topic="TEST.md"/>
     </toc-element>
     <toc-element topic="实用工具.md">
+        <toc-element topic="Nexus-私有化-Maven-中央仓库.md"/>
         <toc-element topic="NEW-API.md"/>
         <toc-element topic="Lets-Encrypt.md"/>
         <toc-element topic="VPN.md">
