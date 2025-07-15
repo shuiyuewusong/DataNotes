@@ -109,6 +109,6 @@ Congratulations, all simulated renewals succeeded:
 ```Bash
 crontab -e 
 # 编辑定时任务 0分 0时 每日 每月 每周 执行任务
-0 0 * * *  root certbot renew --cert-name ch7.top --config-dir "/app/certbot/config" --work-dir "/app/certbot/work" --logs-dir "/app/certbot/log" --manual-auth-hook "/app/certbot/certbot-aliyun/au.sh python aly add" --manual-cleanup-hook "/app/certbot/certbot-aliyun/au.sh python aly clean"
+0 0 15 * *  sudo certbot renew --cert-name ch7.top --config-dir "/app/certbot/config" --work-dir "/app/certbot/work" --logs-dir "/app/certbot/log" --manual-auth-hook "/app/certbot/certbot-aliyun/au.sh python aly add" --manual-cleanup-hook "/app/certbot/certbot-aliyun/au.sh python aly clean"
 
 ```
