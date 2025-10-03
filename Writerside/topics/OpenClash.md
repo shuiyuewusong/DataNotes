@@ -9,6 +9,17 @@
 
 [](https://wiki.metacubex.one/config/rule-providers/content/)
 [](https://clash.wiki/configuration/configuration-reference.html)
+
+## 大佬文档参考
+
+[OpenClash 保姆级设置方案](https://github.com/Aethersailor/Custom_OpenClash_Rules)  
+[设置方案](https://github.com/Aethersailor/Custom_OpenClash_Rules/wiki/OpenClash-%E8%AE%BE%E7%BD%AE%E6%96%B9%E6%A1%88)  
+[IPV6配置](https://github.com/Aethersailor/Custom_OpenClash_Rules/wiki/OpenWrt-IPv6-%E8%AE%BE%E7%BD%AE%E6%96%B9%E6%A1%88)  
+
+## 下文配置方案不建议小白手动修改
+
+
+
 ## Clash 基础配置
 
 ```yaml
