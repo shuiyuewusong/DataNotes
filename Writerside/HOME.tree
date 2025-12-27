@@ -10,10 +10,13 @@
         <toc-element topic="TEST.md"/>
     </toc-element>
     <toc-element topic="实用工具.md">
-        <toc-element topic="Termora-远程SSH管理工具.md"/>
         <toc-element topic="Nexus-私有化-Maven-中央仓库.md"/>
         <toc-element topic="NEW-API.md"/>
         <toc-element topic="Lets-Encrypt.md"/>
+        <toc-element topic="SSH客户端.md">
+            <toc-element topic="Termora-远程SSH管理工具.md"/>
+            <toc-element topic="Tabby.md"/>
+        </toc-element>
         <toc-element topic="VPN.md">
             <toc-element topic="Wireguard.md">
                 <toc-element topic="Wireguard-客户端配置.md"/>
@@ -36,7 +39,6 @@
         <toc-element topic="Github.md">
             <toc-element topic="Github-获取Token.md"/>
         </toc-element>
-        <toc-element topic="Tabby.md"/>
         <toc-element topic="MusicFree-开源音乐播放器.md"/>
         <toc-element topic="Upscayl.md"/>
         <toc-element topic="CopyQ.md"/>
