@@ -1,4 +1,4 @@
-# Mac 使用安装
+# Rime Mac 使用安装
 
 ## 安装rime
 ```Bash
