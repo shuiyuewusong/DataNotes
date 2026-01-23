@@ -115,3 +115,19 @@ wg-quick up wg0
 ```Bash
 wg-quick down wg0
 ```
+
+### 加入开机自启动
+
+```Bash
+# 启用并立即启动 WireGuard，同时设置开机自启
+systemctl enable --now wg-quick@wg0.service
+
+# 验证服务状态（显示 active (running) 即为正常）
+systemctl status wg-quick@wg0.service
+
+# 停止 WireGuard
+systemctl stop wg-quick@wg0.service
+
+# 关闭开机自启
+systemctl disable wg-quick@wg0.service
+```
