@@ -30,7 +30,7 @@
 # 客户端本地的私钥 使用.key后缀的文件  world.key 
 PrivateKey = 8u9h0uU7bBG1aJz/hpeIuSOi25d5jbdD2kt8n2hDrfYPRMx=
 # 服务器端配置的远程客户端IP地址 IP地址不可复用,如果有多个设备需要配置多个IP地址
-Address = 10.5.0.2/32
+Address = 10.5.0.2/32  
 
 [Peer]
 #  远程服务器的公钥 使用.pub 后缀的文件 liunx.pub 

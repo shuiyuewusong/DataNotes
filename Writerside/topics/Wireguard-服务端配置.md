@@ -75,7 +75,7 @@ vim wg0.conf
 [Interface]
 #本机虚拟局域网IP，中继服务器子网掩码必须是 24 ，这样才能允许所有 ip 访问
 # 服务器的虚拟网络地址 请不要和所有内网重复
-Address = 10.5.0.1/24 
+Address = 10.5.0.1/24  # 服务器IP 一般是IP起始或者结尾
 #服务器本地 的私有密钥 .key后缀文件 liunx.key
 PrivateKey = sDqNacaM/O8Yd/Sm6JCC225d5jbdD2kt8nbLIpLcLg4GsWE=  
 ListenPort = 58161 # 服务器端口号
@@ -93,7 +93,7 @@ PostDown = iptables -D FORWARD -i wg0 -j ACCEPT; iptables -D FORWARD -o wg0 -j A
 PublicKey = kyzIPfIgVDJdkuW7kFHtznvyf/RGD85d5jvnbO6Gup3lSVk=
 # 允许 下方IP的 主机访问我
 # 客户端ID地址  /32 标识是唯一的IP地址
-AllowedIPs = 10.5.0.2/32 
+AllowedIPs = 10.5.0.2/32  #IP段 客户端允许使用的IP地址
 # 心跳包 用于保持连接  25指每25秒发送一次心跳包维持连接联通
 PersistentKeepalive = 25 
 
